@@ -4,9 +4,9 @@ import { Reveal } from "@/components/Reveal";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Tanmay Wagh" },
+      { title: "Contact — T. Wagh" },
       { name: "description", content: "Reach out for strategic positioning, campaign design, live experience, or narrative collaboration." },
-      { property: "og:title", content: "Contact — Tanmay Wagh" },
+      { property: "og:title", content: "Contact — T. Wagh" },
       { property: "og:description", content: "Selective engagements. Real conversations only." },
     ],
   }),
@@ -34,7 +34,7 @@ function Contact() {
         </Reveal>
         <Reveal delay={0.2}>
           <p className="mt-10 max-w-lg text-bone/75 leading-relaxed">
-            I read every message. Be specific — what you're building, where you are,
+            I read every message. Be specific what you're building, where you are,
             what success looks like a year from now. The better the brief, the faster
             we know if it's a fit.
           </p>
