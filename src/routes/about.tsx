@@ -87,7 +87,7 @@ function About() {
           <Reveal>
             <p className="display text-2xl md:text-4xl text-bone leading-[1.25] text-balance">
               Twenty years old. An independent operator working at the intersection of
-              <span className="italic text-gold"> strategy, narrative, and live experience</span> — building
+              <span className="italic text-gold"> strategy, narrative, and live experience</span> building
               the kind of cultural infrastructure that doesn't show up on a feed.
             </p>
           </Reveal>
