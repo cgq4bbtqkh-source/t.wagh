@@ -53,7 +53,7 @@ function Contact() {
                 className="group block py-4"
               >
                 <p className="label mb-3">{c.label}</p>
-                <p className="display md:text-4xl text-bone link-underline transition-colors group-hover:text-gold text-3xl">
+                <p className="display md:text-3xl text-bone link-underline transition-colors group-hover:text-gold text-2xl">
                   {c.value}
                 </p>
                 <p className="mono text-[0.65rem] tracking-[0.3em] uppercase text-muted-foreground mt-3 opacity-0 group-hover:opacity-100 transition-opacity">
