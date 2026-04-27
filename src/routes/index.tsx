@@ -6,10 +6,10 @@ import { StaggerLines } from "@/components/Reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "T. Wagh — I don't build visibility. I build position." },
+      { title: "T. Wagh — I don't build visibility. I build Position." },
       { name: "description", content: "Strategic positioning, campaign architecture, and live experience design by independent operator T. Wagh." },
       { property: "og:title", content: "T. Wagh — Strategic Creative Operator" },
-      { property: "og:description", content: "I don't build visibility. I build position." },
+      { property: "og:description", content: "I don't build visibility. I build Position." },
     ],
   }),
   component: Index,
@@ -72,14 +72,14 @@ function Index() {
               onLoad
               delay={0.4}
               className="display text-[16vw] md:text-[11vw] leading-[0.88] text-bone tracking-tighter text-balance"
-              lines={["I don't build", <span key="2" className="italic text-gold glow-gold">visibility.</span>]}
+              lines={["I don't build", <span key="2" className="italic text-gold glow-gold">visibility.{"\n"}</span>]}
             />
             <div className="mt-2 md:mt-4">
               <StaggerLines
                 onLoad
                 delay={0.6}
                 className="display text-[16vw] md:text-[11vw] leading-[0.88] text-bone/90 tracking-tighter"
-                lines={["I build position."]}
+                lines={["I build Position."]}
               />
             </div>
           </div>
@@ -140,8 +140,8 @@ function Index() {
           <div className="md:col-span-9">
             <p className="display text-3xl md:text-5xl lg:text-6xl text-bone leading-[1.1] text-balance">
               Most people chase <span className="italic text-muted-foreground">attention.</span> I architect
-              the <span className="italic text-gold">position</span> that makes attention inevitable —
-              and, once it arrives, irreplaceable.
+              the <span className="italic text-gold">position</span> that makes attention inevitable and,
+              once it arrives, irreplaceable.
             </p>
             <div className="mt-12 flex flex-wrap gap-x-12 gap-y-4">
               <Link to="/about" className="mono text-xs tracking-[0.25em] uppercase text-bone link-underline">

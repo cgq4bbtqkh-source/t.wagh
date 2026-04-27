@@ -132,8 +132,9 @@ function About() {
           <Reveal>
             <blockquote className="display text-3xl md:text-5xl text-bone leading-[1.1] text-balance">
               <span className="text-gold/60">“</span>
-              I'm not in the visibility business.
+              I'm not in the visibility.{"\n"}F business.
               <br className="hidden md:block" />
+              {"\n"}
               I'm in the <span className="italic text-gold">position</span> business.
               <span className="text-gold/60">”</span>
             </blockquote>
