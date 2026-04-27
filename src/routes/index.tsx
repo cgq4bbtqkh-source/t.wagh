@@ -60,6 +60,9 @@ function Index() {
               </div>
             </div>
 
+            <p className="display italic text-bone/70 text-base md:text-xl tracking-wide mb-6 md:mb-8">
+              Motus est religio; stare peccatum.
+            </p>
             <StaggerLines
               className="display text-[16vw] md:text-[11vw] leading-[0.88] text-bone tracking-tighter text-balance"
               lines={["I don't build", <span key="2" className="italic text-gold glow-gold">visibility.</span>]}
