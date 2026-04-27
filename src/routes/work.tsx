@@ -39,7 +39,7 @@ const projects: Project[] = [
       "Repeatable production system built show-over-show",
     ],
     impact:
-      "Five independent shows produced solo — a continuity rare for an operator at this stage, with a system now ready to scale.",
+      "Five independent shows produced solo \u00A0a continuity rare for an operator at this stage, with a system now ready to scale.",
     accent: "crimson",
   },
   {
