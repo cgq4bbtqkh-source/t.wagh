@@ -52,7 +52,7 @@ const projects: Project[] = [
       "Narrative-driven campaign architecture per release",
       "Long-term identity & catalogue positioning",
       "Direct negotiation with labels, venues, brands",
-      "Ecosystem building — not one-off pushes",
+      "Ecosystem building not one-off pushes",
     ],
     impact:
       "Artists arrive at each release with a position already built. Marketing becomes confirmation, not introduction.",
