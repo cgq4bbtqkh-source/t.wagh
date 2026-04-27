@@ -6,9 +6,9 @@ import { StaggerLines } from "@/components/Reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Tanmay Wagh — I don't build visibility. I build position." },
-      { name: "description", content: "Strategic positioning, campaign architecture, and live experience design by independent operator Tanmay Wagh." },
-      { property: "og:title", content: "Tanmay Wagh — Strategic Creative Operator" },
+      { title: "T. Wagh — I don't build visibility. I build position." },
+      { name: "description", content: "Strategic positioning, campaign architecture, and live experience design by independent operator T. Wagh." },
+      { property: "og:title", content: "T. Wagh — Strategic Creative Operator" },
       { property: "og:description", content: "I don't build visibility. I build position." },
     ],
   }),
