@@ -14,9 +14,8 @@ export const Route = createFileRoute("/contact")({
 });
 
 const channels = [
-  { label: "Email", value: "tanmay@wagh.studio", href: "mailto:tanmay@wagh.studio" },
-  { label: "Instagram", value: "@tanmaywagh", href: "https://instagram.com/tanmaywagh" },
-  { label: "LinkedIn", value: "in/tanmaywagh", href: "https://linkedin.com/in/tanmaywagh" },
+  { label: "Email", value: "contact@tellmetanmay.com", href: "mailto:contact@tellmetanmay.com" },
+  { label: "Instagram", value: "@tellmetanmay", href: "https://instagram.com/tellmetanmay" },
 ];
 
 function Contact() {
@@ -44,7 +43,7 @@ function Contact() {
 
       <section className="px-6 md:px-12 mt-24">
         <div className="editorial-rule mb-10" />
-        <div className="grid md:grid-cols-3 gap-10 md:gap-6">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-12 max-w-3xl">
           {channels.map((c, i) => (
             <Reveal key={c.label} delay={i * 0.08}>
               <a
