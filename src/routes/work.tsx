@@ -5,9 +5,9 @@ import { Reveal } from "@/components/Reveal";
 export const Route = createFileRoute("/work")({
   head: () => ({
     meta: [
-      { title: "Work — Tanmay Wagh" },
+      { title: "Work — T. Wagh" },
       { name: "description", content: "Selected case studies: independent live shows, artist campaigns, strategic writing, and high-pressure media coverage." },
-      { property: "og:title", content: "Work — Tanmay Wagh" },
+      { property: "og:title", content: "Work — T. Wagh" },
       { property: "og:description", content: "Cinematic case studies from inside India's independent music ecosystem." },
     ],
   }),
