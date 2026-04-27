@@ -39,7 +39,7 @@ const projects: Project[] = [
       "Repeatable production system built show-over-show",
     ],
     impact:
-      "Five independent shows produced solo — a continuity rare for an operator at this stage, with a system now ready to scale.",
+      "Five independent shows produced solo \u00A0a continuity rare for an operator at this stage, with a system now ready to scale.",
     accent: "crimson",
   },
   {
@@ -52,7 +52,7 @@ const projects: Project[] = [
       "Narrative-driven campaign architecture per release",
       "Long-term identity & catalogue positioning",
       "Direct negotiation with labels, venues, brands",
-      "Ecosystem building — not one-off pushes",
+      "Ecosystem building not one-off pushes",
     ],
     impact:
       "Artists arrive at each release with a position already built. Marketing becomes confirmation, not introduction.",
@@ -206,7 +206,7 @@ function Work() {
         </Reveal>
         <Reveal delay={0.2}>
           <p className="mt-8 max-w-xl text-bone/75 text-lg leading-relaxed">
-            Four sequences. Each one a deliberate move — produced, written,
+            Four sequences. Each one a deliberate move produced, written,
             negotiated, or executed independently between 2024 and 2026.
           </p>
         </Reveal>
@@ -220,7 +220,7 @@ function Work() {
         <Reveal>
           <p className="label mb-6">End of reel</p>
           <p className="display text-3xl md:text-5xl text-bone text-balance max-w-3xl mx-auto leading-[1.1]">
-            New case file in development —
+            New case file in development &nbsp;
             <span className="italic text-gold"> long-form storytelling.</span>
           </p>
           <Link
