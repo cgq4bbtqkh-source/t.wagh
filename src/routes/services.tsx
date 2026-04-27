@@ -58,13 +58,14 @@ function Services() {
         <Reveal delay={0.1}>
           <h1 className="display text-[14vw] md:text-[10vw] leading-[0.9] text-bone tracking-tighter">
             What I <span className="italic text-gold">do</span>
-            <br />— and don't.
+            <br />
+            and don't.
           </h1>
         </Reveal>
         <Reveal delay={0.2}>
           <p className="mt-10 max-w-xl text-bone/70 leading-relaxed">
             Four disciplines, in descending order of focus. Engagements are limited and
-            selected on fit — not volume.
+            selected on fit not volume.
           </p>
         </Reveal>
       </header>
