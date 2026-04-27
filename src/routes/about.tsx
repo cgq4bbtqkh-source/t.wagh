@@ -68,11 +68,11 @@ function About() {
             <div className="mt-8 space-y-4">
               <div>
                 <p className="label mb-1">Born</p>
-                <p className="text-sm text-bone">2005 · India</p>
+                <p className="text-sm text-bone">2006 · India</p>
               </div>
               <div>
                 <p className="label mb-1">Education</p>
-                <p className="text-sm text-bone">B.B.M., Ongoing<br /><span className="text-muted-foreground">Class of 2029</span></p>
+                <p className="text-sm text-bone">B.B.A., Ongoing<br /><span className="text-muted-foreground">Class of 2029</span></p>
               </div>
               <div>
                 <p className="label mb-1">Practice</p>
