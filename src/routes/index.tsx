@@ -62,7 +62,7 @@ function Index() {
 
             <StaggerLines
               className="display text-[16vw] md:text-[11vw] leading-[0.88] text-bone tracking-tighter text-balance"
-              lines={["I don't build", <span key="2" className="italic text-gold glow-gold">visibility.</span> as unknown as string]}
+              lines={["I don't build", <span key="2" className="italic text-gold glow-gold">visibility.</span>]}
             />
             <div className="mt-2 md:mt-4">
               <StaggerLines
