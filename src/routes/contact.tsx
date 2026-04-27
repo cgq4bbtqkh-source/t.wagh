@@ -14,9 +14,8 @@ export const Route = createFileRoute("/contact")({
 });
 
 const channels = [
-  { label: "Email", value: "tanmay@wagh.studio", href: "mailto:tanmay@wagh.studio" },
-  { label: "Instagram", value: "@tanmaywagh", href: "https://instagram.com/tanmaywagh" },
-  { label: "LinkedIn", value: "in/tanmaywagh", href: "https://linkedin.com/in/tanmaywagh" },
+  { label: "Email", value: "contact@tellmetanmay.com", href: "mailto:contact@tellmetanmay.com" },
+  { label: "Instagram", value: "@tellmetanmay", href: "https://instagram.com/tellmetanmay" },
 ];
 
 function Contact() {
