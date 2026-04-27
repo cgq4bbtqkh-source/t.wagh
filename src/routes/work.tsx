@@ -206,7 +206,7 @@ function Work() {
         </Reveal>
         <Reveal delay={0.2}>
           <p className="mt-8 max-w-xl text-bone/75 text-lg leading-relaxed">
-            Four sequences. Each one a deliberate move — produced, written,
+            Four sequences. Each one a deliberate move produced, written,
             negotiated, or executed independently between 2024 and 2026.
           </p>
         </Reveal>
