@@ -60,15 +60,24 @@ function Index() {
               </div>
             </div>
 
-            <p className="display italic text-bone/70 text-base md:text-xl tracking-wide mb-6 md:mb-8">
+            <motion.p
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+              className="display italic text-bone/70 text-base md:text-xl tracking-wide mb-6 md:mb-8"
+            >
               Motus est religio; stare peccatum.
-            </p>
+            </motion.p>
             <StaggerLines
+              onLoad
+              delay={0.4}
               className="display text-[16vw] md:text-[11vw] leading-[0.88] text-bone tracking-tighter text-balance"
               lines={["I don't build", <span key="2" className="italic text-gold glow-gold">visibility.</span>]}
             />
             <div className="mt-2 md:mt-4">
               <StaggerLines
+                onLoad
+                delay={0.6}
                 className="display text-[16vw] md:text-[11vw] leading-[0.88] text-bone/90 tracking-tighter"
                 lines={["I build position."]}
               />
