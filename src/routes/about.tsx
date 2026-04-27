@@ -98,7 +98,7 @@ function About() {
             <Reveal>
               <p className="label mb-3">001 / Origin</p>
               <p className="text-bone/85 leading-relaxed text-pretty">
-                Began in 2024 inside India's independent music ecosystem — managing artists,
+                Began in 2024 inside India's independent music ecosystem managing artists,
                 writing campaigns, and producing live shows when most of his peers were still
                 figuring out the brief.
               </p>
@@ -114,7 +114,7 @@ function About() {
             <Reveal>
               <p className="label mb-3">003 / Shift</p>
               <p className="text-bone/85 leading-relaxed text-pretty">
-                Now moving deliberately toward original storytelling — books and theatre.
+                Now moving deliberately toward original storytelling books and theatre.
                 Same instinct, longer time horizon. Less campaign, more canon.
               </p>
             </Reveal>
@@ -122,7 +122,7 @@ function About() {
               <p className="label mb-3">004 / Standard</p>
               <p className="text-bone/85 leading-relaxed text-pretty">
                 Structure over noise. Identity over promotion. Authority earned through
-                clarity, not volume. The work either holds — or it doesn't ship.
+                clarity, not volume. The work either holds or it doesn't ship.
               </p>
             </Reveal>
           </div>
