@@ -17,7 +17,7 @@ export function Reveal({ children, delay = 0, y = 30, ...rest }: Props) {
   );
 }
 
-export function StaggerLines({ lines, className = "" }: { lines: string[]; className?: string }) {
+export function StaggerLines({ lines, className = "" }: { lines: ReactNode[]; className?: string }) {
   return (
     <div className={className}>
       {lines.map((line, i) => (
