@@ -220,7 +220,7 @@ function Work() {
         <Reveal>
           <p className="label mb-6">End of reel</p>
           <p className="display text-3xl md:text-5xl text-bone text-balance max-w-3xl mx-auto leading-[1.1]">
-            New case file in development —
+            New case file in development &nbsp;
             <span className="italic text-gold"> long-form storytelling.</span>
           </p>
           <Link
