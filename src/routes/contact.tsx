@@ -43,7 +43,7 @@ function Contact() {
 
       <section className="px-6 md:px-12 mt-24">
         <div className="editorial-rule mb-10" />
-        <div className="grid md:grid-cols-2 gap-10 md:gap-12 max-w-3xl">
+        <div className="grid md:grid-cols-2 gap-16 md:gap-24 max-w-3xl">
           {channels.map((c, i) => (
             <Reveal key={c.label} delay={i * 0.08}>
               <a
