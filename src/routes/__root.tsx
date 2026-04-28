@@ -1,6 +1,7 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
+import { CustomCursor } from "@/components/CustomCursor";
 
 import appCss from "../styles.css?url";
 
@@ -72,6 +73,7 @@ function RootShell({ children }: { children: React.ReactNode }) {
 function RootComponent() {
   return (
     <>
+      <CustomCursor />
       <SiteNav />
       <main className="relative">
         <Outlet />
