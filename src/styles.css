@@ -176,3 +176,11 @@
     text-shadow: 0 0 30px color-mix(in oklab, var(--color-gold) 40%, transparent);
   }
 }
+
+/* Custom cursor: hide native cursor only on fine pointers */
+@media (pointer: fine) {
+  html.has-custom-cursor,
+  html.has-custom-cursor * {
+    cursor: none !important;
+  }
+}
