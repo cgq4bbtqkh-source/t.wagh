@@ -59,7 +59,7 @@ export function SiteNav() {
           </nav>
           <a
             href="mailto:hello@tanmaywagh.com"
-            className="hidden md:inline mono text-[0.7rem] tracking-[0.25em] uppercase text-bone link-underline"
+            className="inquiries-button mono text-[0.7rem] tracking-[0.25em] uppercase text-bone link-underline"
           >
             Inquiries →
           </a>
